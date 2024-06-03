@@ -23,7 +23,6 @@ interface SwipeAnimatonButtonProps {
   title?: string;
   swipeSuccessThreshold?: number;
   shouldResetAfterSuccess?: boolean;
-  resetAfterSuccessAnimDelay?: number;
 }
 
 const SwipeAnimatonButton: React.FC<SwipeAnimatonButtonProps> = ({
